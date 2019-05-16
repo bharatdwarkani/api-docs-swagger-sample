@@ -1,0 +1,11 @@
+bin
+obj
+packages
+.vs/ 
+publish 
+*.pubxml 
+*.user
+*.bat 
+node_modules  
+lib
+dist
