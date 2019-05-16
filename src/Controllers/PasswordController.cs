@@ -8,7 +8,7 @@ namespace api_docs.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class PasswordController : ControllerBase 
     {
         // GET api/values
         [HttpGet]
