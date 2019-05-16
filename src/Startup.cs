@@ -53,8 +53,8 @@ namespace api_docs
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-                c.RoutePrefix = string.Empty;
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+                c.RoutePrefix = string.Empty;                
             });
 
             app.UseHttpsRedirection();
